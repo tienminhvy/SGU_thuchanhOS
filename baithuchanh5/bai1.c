@@ -21,7 +21,7 @@ int main(int argc, char* argv[]){
     int avg, max, min;
     a.n = argc-1;
     for (int i = 1; i < argc; i++) a.a[i-1] = atoi(argv[i]);
-    
+
     pthread_t tid[3];
     pthread_create(&tid[0], NULL, findAvg, &a);
     pthread_join(tid[0], NULL);
