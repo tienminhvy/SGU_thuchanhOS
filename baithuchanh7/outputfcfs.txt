@@ -1,0 +1,18 @@
+
+	 PROCESS ARRIVAL SERVICE START FINISH WAIT TURN 
+
+	P0	0 	 1 	 0 	 1 	 0 	 1 
+
+	P1	2 	 4 	 1 	 5 	 1 	 5 
+
+	P2	1 	 5 	 5 	 10 	 5 	 10 
+
+ AVERAGE WAITING TIME = 2.000000 tu
+
+ AVERAGE TURN AROUND TIME = 5.333333 tu
+
+          GANTT CHART                    ***********          
+ -- -------- ---------- 
+|P0|   P1   |    P2    |
+ -- -------- ---------- 
+0  1        5          10
