@@ -3,16 +3,16 @@
 
 	P0	0 	 1 	 0 	 1 	 0 	 1 
 
-	P1	2 	 4 	 1 	 5 	 1 	 5 
+	P1	3 	 3 	 1 	 4 	 1 	 4 
 
-	P2	1 	 5 	 5 	 10 	 5 	 10 
+	P2	1 	 2 	 4 	 6 	 4 	 6 
 
- AVERAGE WAITING TIME = 2.000000 tu
+ AVERAGE WAITING TIME = 1.666667 tu
 
- AVERAGE TURN AROUND TIME = 5.333333 tu
+ AVERAGE TURN AROUND TIME = 3.666667 tu
 
           GANTT CHART                    ***********          
- -- -------- ---------- 
-|P0|   P1   |    P2    |
- -- -------- ---------- 
-0  1        5          10
+ -- ------ ---- 
+|P0|  P1  | P2 |
+ -- ------ ---- 
+0  1      4    6
