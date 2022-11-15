@@ -5,6 +5,9 @@
         "limits": "c",
         "pthread.h": "c",
         "string.h": "c",
-        "types.h": "c"
+        "types.h": "c",
+        "ipc.h": "c",
+        "stdio.h": "c",
+        "msg.h": "c"
     }
 }
