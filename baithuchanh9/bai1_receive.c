@@ -13,7 +13,7 @@ int tinhGiaiThua(int n) {
     return n*tinhGiaiThua(n-1);
 }
 
-int main(int argc, char **argv) {
+int main() {
     key_t key;
     int msgid;
     // ftok to generate unique key

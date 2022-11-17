@@ -34,7 +34,7 @@ int tinhToan(int num1, int num2, char method) {
     return result;
 }
 
-int main(int argc, char **argv) {
+int main() {
     key_t key;
     int msgid;
     // ftok to generate unique key
