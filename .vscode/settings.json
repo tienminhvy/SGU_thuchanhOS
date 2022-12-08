@@ -8,6 +8,7 @@
         "types.h": "c",
         "ipc.h": "c",
         "stdio.h": "c",
-        "msg.h": "c"
+        "msg.h": "c",
+        "shm.h": "c"
     }
 }
